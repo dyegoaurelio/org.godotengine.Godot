@@ -17,7 +17,7 @@ build-options:
 
   env:
     # Will be appended to the version string displayed in the editor and command-line help
-    BUILD_NAME: flathub
+    BUILD_NAME: flathub-dyego
 
     # SCons flags common to all builds
     # Shouldn't be quoted when used as it's a single string, not an array
@@ -73,8 +73,8 @@ modules:
 
     sources:
       - type: archive
-        sha256: 8ce3e2170ac5e043a7ce9c6f839ef67eddd83e24c0728d1afc76e678d4f37552
-        url: https://downloads.tuxfamily.org/godotengine/4.0.3/godot-4.0.3-stable.tar.xz
+        sha256: cea912f493775aca1fbcf1a12f4db6606367f14224c17b2a5499dac4bd24135d
+        url: https://github.com/dyegoaurelio/godot/archive/4.0.3-lim-memory.tar.gz
 
       - type: script
         dest-filename: godot.sh
